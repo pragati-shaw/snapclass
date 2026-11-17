@@ -1,7 +1,5 @@
 import streamlit as st
 
-
-
 def style_background_home():
 
     st.markdown("""
@@ -59,17 +57,27 @@ def style_base_layout():
 
             h1 {
                 font-family: 'Climate Crisis', sans-serif !important;
-                font-size: 3.5rem !important;
-                line-height:1.1 1important;
+                font-size: 3.2rem !important;
+                font-weight: 400 !important;
+                line-height:1.2 !important;
+                letter-spacing: 1px !important;
+
                 margin-bottom:0rem !important;
+                color: #000000 !important;
+
             }
                 
 
             h2 {
                 font-family: 'Climate Crisis', sans-serif !important;
                 font-size: 2rem !important;
-                line-height:0.9 !important;
+                font-weight: 400 !important;
+                line-height:1.2 !important;
+                letter-spacing: 0.5px !important;
+
                 margin-bottom:0rem !important;
+                color: #000000 !important;
+
             }
                 
             h3, h4, p {

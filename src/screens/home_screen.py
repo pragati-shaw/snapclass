@@ -1,7 +1,6 @@
 import streamlit as st
 
 from src.components.header import header_home
-from src.components.footer import footer_home
 from src.ui.base_layout import style_base_layout, style_background_home
 
 
@@ -26,4 +25,3 @@ def home_screen():
             st.session_state['login_type']='teacher'
             st.rerun()
 
-    footer_home()
